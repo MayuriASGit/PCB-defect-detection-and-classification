@@ -6,6 +6,13 @@ This project focuses on building an automated Printed Circuit Board (PCB) defect
 The system compares a defect-free (template) PCB image with a test image to detect defects and uses a trained Convolutional Neural Network (CNN) to classify them.
 
 A web-based frontend allows users to upload images and view annotated results with highlighted defects.
+<img width="1551" height="817" alt="Screenshot 2026-05-05 093539" src="https://github.com/user-attachments/assets/8823cfdc-e064-4cbc-8060-7fafc52076c2" />
+
+<img width="1562" height="800" alt="Screenshot 2026-05-05 093601" src="https://github.com/user-attachments/assets/b67dda1d-3917-42d2-83c3-1b804789cc84" />
+
+<img width="1572" height="817" alt="Screenshot 2026-05-05 093613" src="https://github.com/user-attachments/assets/58ad5c98-ff90-4758-bea8-788a0d9c9e2c" />
+
+<img width="1559" height="815" alt="Screenshot 2026-05-05 093644" src="https://github.com/user-attachments/assets/c1af1cfa-3b30-4948-8abf-5627be510b30" />
 
 🎯 Objectives
 Detect and localize PCB defects using image subtraction techniques
@@ -60,22 +67,7 @@ DeepPCB Dataset
 Contains:
 Template (defect-free) images
 Test images with defects
-🗓️ Project Timeline
-🔹 Milestone 1 (Weeks 1–2): Image Processing
-Dataset preparation
-Image subtraction
-Defect mask generation
-🔹 Milestone 2 (Weeks 3–4): Model Training
-Train CNN model
-Evaluate accuracy & loss
-Generate confusion matrix
-🔹 Milestone 3 (Weeks 5–6): Integration
-Build frontend UI
-Integrate backend pipeline
-🔹 Milestone 4 (Weeks 7–8): Finalization
-Testing & optimization
-Export features
-Documentation
+
 📈 Evaluation Criteria
 Milestone	Focus Area	Metric	Goal
 1	Image Processing	Mask quality	Detect all defects
@@ -112,19 +104,20 @@ View:
 Highlighted defects
 Classified labels
 Download results (image + CSV)
+
 📌 Expected Outcomes
 Accurate defect detection using image processing
 High classification accuracy (≥95%)
 Fully functional web application
 Exportable results for analysis
+
 🔮 Future Enhancements
 Real-time defect detection using camera input
 Deployment on cloud (AWS / Azure)
 Mobile-friendly interface
 Support for multiple PCB datasets
 Advanced models (Vision Transformers)
+
 👩‍💻 Author
 MCA Student | Software Engineer | AI Enthusiast
-📜 License
 
-This project is for academic and research purposes.
