@@ -1,5 +1,4 @@
-🧠 AI PCB Defect Detection & Classification System
-📌 Project Overview
+ AI PCB Defect Detection & Classification System
 
 This project focuses on building an automated Printed Circuit Board (PCB) defect detection and classification system using image processing and deep learning techniques.
 
@@ -14,21 +13,21 @@ A web-based frontend allows users to upload images and view annotated results wi
 
 <img width="1559" height="815" alt="Screenshot 2026-05-05 093644" src="https://github.com/user-attachments/assets/c1af1cfa-3b30-4948-8abf-5627be510b30" />
 
-🎯 Objectives
+Objectives
 Detect and localize PCB defects using image subtraction techniques
 Classify detected defects into predefined categories using CNN
 Build and evaluate a deep learning model for accurate classification
 Develop a frontend interface for image upload and visualization
 Integrate backend processing pipeline for inference
 Export annotated results and logs
-🚀 Key Features
-🔍 Defect Detection using image subtraction & thresholding
-📦 ROI Extraction using contour detection
-🧠 Deep Learning Classification (EfficientNet / CNN)
-🌐 Web Interface for easy interaction
-📊 Evaluation Metrics (Accuracy, Confusion Matrix)
-💾 Export Results (Images + CSV logs)
-🧩 Project Modules
+Key Features
+Defect Detection using image subtraction & thresholding
+ROI Extraction using contour detection
+Deep Learning Classification (EfficientNet / CNN)
+Web Interface for easy interaction
+Evaluation Metrics (Accuracy, Confusion Matrix)
+Export Results (Images + CSV logs)
+ Project Modules
 1. Image Processing (OpenCV)
 Image alignment and preprocessing
 Image subtraction (template vs test)
@@ -62,19 +61,13 @@ Export prediction logs (CSV)
 8. Documentation & Presentation
 README & technical docs
 Demo video / slides
-📊 Dataset
+Dataset
 DeepPCB Dataset
 Contains:
 Template (defect-free) images
 Test images with defects
 
-📈 Evaluation Criteria
-Milestone	Focus Area	Metric	Goal
-1	Image Processing	Mask quality	Detect all defects
-2	Model	Accuracy	≥ 95%
-3	UI	Response Time	≤ 3 sec
-4	Final System	Export & Docs	Fully working
-🛠️ Tech Stack
+ Tech Stack
 Area	Tools
 Image Processing	OpenCV, NumPy
 Deep Learning	PyTorch / TensorFlow
@@ -83,7 +76,7 @@ Frontend	Streamlit / HTML, CSS, JS
 Backend	Python
 Evaluation	Accuracy, Loss, Confusion Matrix
 Export	CSV, Images, PDF
-⚙️ Installation & Setup
+ Installation & Setup
 # Clone the repository
 git clone https://github.com/your-username/pcb-defect-detection.git
 
@@ -95,7 +88,7 @@ pip install -r requirements.txt
 
 # Run the application
 streamlit run app.py
-🖥️ Usage
+Usage
 Upload:
 Template (defect-free) image
 Test image
@@ -105,19 +98,15 @@ Highlighted defects
 Classified labels
 Download results (image + CSV)
 
-📌 Expected Outcomes
+Expected Outcomes
 Accurate defect detection using image processing
 High classification accuracy (≥95%)
 Fully functional web application
 Exportable results for analysis
 
-🔮 Future Enhancements
+Future Enhancements
 Real-time defect detection using camera input
 Deployment on cloud (AWS / Azure)
 Mobile-friendly interface
 Support for multiple PCB datasets
 Advanced models (Vision Transformers)
-
-👩‍💻 Author
-MCA Student | Software Engineer | AI Enthusiast
-
